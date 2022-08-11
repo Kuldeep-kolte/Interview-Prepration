@@ -75,7 +75,9 @@
     <ul>
         <li>Semantic elements = elements with a meaning.</li>
         <li>A semantic element clearly describes its meaning to both the browser and the developer.</li>
-        <li>Examples of semantic elements: <b>< form>, < table>, and < article></b> - Clearly defines its content.</li>
+        <li>Examples of semantic elements: <b>
+                < form>, < table>, and < article>
+            </b> - Clearly defines its content.</li>
     </ul>
     <h3>Q.10 Difference between HTML tags and HTML elements?</h3>
     <ul>
@@ -87,6 +89,87 @@
                 < p>content< /p>
             </b></li>
     </ul>
+    <h1>Implementation</h1>
+    <h3>Q.1 Write code to create an ordered list with roman numbers</h3>
+    <ol type="i">
+        <li>one</li>
+        <li>two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ol>
+    <h3>Q.2 Write code to create an unordered list with circle</h3>
+    <ul type="circle">
+        <li>one</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+    <h3>Q.3 Write code to create a link to https://www.prepbytes.com</h3>
+    <label for="link">Click here to go on </label><a href="https://www.prepbytes.com">Prepbytes</a>
+    <h3>Q.4 Write a code to insert an image</h3>
+    <img src="abc.jpg" alt="image" width="400px" height="200px">
+    <h3>Q.5 Write html code to create a 2*2 table : Table columns should be name and salary , and provide two entries
+        for this.</h3>
+    <table border="1px" cellspacing="0" cellpadding="0">
+        <tr>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>50000</td>
+        </tr>
+        <tr>
+            <td>Sham</td>
+            <td>40000</td>
+        </tr>
+    </table>
+    <h3>Q.6 Create a form contain input fields like name age email and contact</h3>
+    <form action="">
+        <label for="name">Enter Your Name:</label>
+        <input type="text" placeholder="Name"> <br><br>
+        <label for="age">Enter Your Age</label>
+        <input type="text" placeholder="Age"><br><br>
+        <label for="email">Enter Your Email</label>
+        <input type="Email" placeholder="example@gmail.com"><br><br>
+        <label for="Contact">Enter Your contact Number: </label>
+        <input type="number"> <br><br>
+    </form>
+    <h3>Q.7 Create a table and explain how to acheive colspan</h3>
+    <table border="1px" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">contact number</th>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>9604943321</td>
+            <td>9012341685</td>
+        </tr>
+        <tr>
+            <td>abc</td>
+            <td>9604943321</td>
+            <td>9012341685</td>
+        </tr>
+    </table>
+    <h3>Q.8 Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the
+        difference between these two </h3>
+    <form action="">
+        <label for="course">Choose Your Stack</label><br>
+        <input type="radio" id="mern" name="fav_language" value="MERN">
+        <label for="html">MERN</label><br>
+        <input type="radio" id="mean" name="fav_language" value="MEAN">
+        <label for="css">MEAN</label><br><br>
+        TECHNOLOGY: <br>
+        <input type="checkbox" id="html" name="html" value="HTML">
+        <label for="html"> HTML</label><br>
+        <input type="checkbox" id="css" name="css" value="CSS">
+        <label for="css"> CSS</label><br>
+        <input type="checkbox" id="react" name="react" value="REACT">
+        <label for="react"> REACT</label><br>
+        <input type="checkbox" id="node" name="node" value="NODE">
+        <label for="node"> NODE</label>
+    </form>
 </body>
 
 </html>
