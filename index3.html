@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+</head>
+
+<body>
+    <h1>CSS interview Questions and Answers</h1>
+    <h3>Q.1 Difference between flex row and column</h3>
+    <ul>
+        <li>Flexbox was designed as a single dimensional layout, meaning that it deals with laying out items as a row or
+            as a column — but not both at once.</li>
+        <li>There is however the ability to wrap flex items onto new lines, creating new rows if flex-direction is row
+            and new columns if flex-direction is column .</li>
+        <li>The column value stacks the flex items vertically (from top to bottom)</li>
+        <li>The row value stacks the flex items horizontally (from left to right)</li>
+    </ul>
+    <h3>Q.2 Explain inline , internal and external stylesheet</h3>
+    <p>There are three ways of inserting a style sheet</p>
+    <ul>
+        <li>Inline CSS: Requires the style attribute placed inside an HTML element.</li>
+        <li>Internal CSS: Requires the < style> element placed inside the head section of an HTML file.</li>
+        <li>External CSS: Requires the < link> element placed inside the head section of an HTML file.</li>
+    </ul>
+
+    <h3>Q.3 Justify-content allows you to do what?</h3>
+    <ul>
+        <li>The justify-content property is used to align the flex items:</li>
+        <li>The justify-content property is a sub-property of the Flexible Box Layout module. It defines the alignment
+            along the main axis.</li>
+        <li>The CSS justify-content property defines how the browser distributes space between and around content items
+            along the main-axis of a flex container, and <br> the inline axis of a grid container.</li>
+    </ul>
+    <h3>Q.4 Difference between absolute and relative positioning</h3>
+    <ul>
+        <li>An absolute position element is positioned relative to the first parent element that has a position other
+            than static.</li>
+        <li>A relative positioned element is positioned relative to its normal position. To position an element
+            relatively, the property position is set as relative.</li>
+    </ul>
+
+    <h3>Q.5 What is grid-template-columns used for?</h3>
+    <ul>
+        <li>The grid-template-columns property specifies the number (and the widths) of columns in a grid layout. </li>
+        <li>The values are a space separated list, where each value specifies the size of the respective column.</li>
+    </ul>
+    <h3>Q.6 What is the z-index in CSS?</h3>
+    <ul>
+        <li>Z Index (z-index) is a CSS property that defines the order of overlapping HTML elements.
+            <br> Elements with a higher index will be placed on top of elements with a lower index.
+        </li>
+        <li>The z-index property specifies the stack order of an element.</li>
+        <li>An element with greater stack order is always in front of an element with a lower stack order.</li>
+        <li>Z index only works on positioned elements </li>
+    </ul>
+    <h3>Q.7 What is the difference between padding and margin?</h3>
+    <ul>
+        <li>
+            Padding is used to create space around an element's content, inside of any defined borders.
+        </li>
+        <li>Margins are used to create space around elements, outside of any defined borders.</li>
+    </ul>
+    <h3>Q.8 What is box sizing?</h3>
+    <ul>
+        <li>The box-sizing property allows us to include the padding and border in an element's total width and height.
+        </li>
+        <li>If you set box-sizing: border-box; on an element, padding and border are included in the width and height:
+        </li>
+    </ul>
+    <h3>Q.9 What is animation delay?</h3>
+    <ul>
+        <li>The animation-delay CSS property specifies the amount of time to wait from applying the animation to an
+            element <br>
+            before beginning to perform the animation</li>
+        <li>The animation can start later, immediately from its beginning, or immediately and partway through the
+            animation.</li>
+    </ul>
+    <h3>Q.10 Which property you will use to merge cells vertically in grid?</h3>
+    <ul>
+        <li>CSS grid-column property.</li>
+        <li>Use the grid-column property to specify on which column to place an item, and how many columns the item will
+            span.</li>
+    </ul>
+    <h3>Q.11 Which property you will use to merge cells horizontally in grid?</h3>
+    <ul>
+        <li>CSS grid-row property.</li>
+        <li>Use the grid-row property to specify on which row to place an item, and how many row the item will span.
+        </li>
+    </ul>
+    <h3>Q.12 Explain CSS box model</h3>
+    <ul>
+        <li>All HTML elements can be considered as boxes.</li>
+        <li>In CSS, the term "box model" is used when talking about design and layout.</li>
+        <li>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins,
+            borders, padding, and the actual content.</li>
+    </ul>
+    <h3>Q.13 what is the difference between display none and visibility hidden?</h3>
+    <ul>
+        <li>display:none means that the tag in question will not appear on the page at all (although you can still
+            interact with it through the dom).</li>
+        <li>There will be no space allocated for it between the other tags.</li>
+        <li>visibility:hidden means that unlike display:none, the tag is not visible, but space is allocated for it on
+            the page.</li>
+    </ul>
+
+    <!-- <h3>Q.1 Replicate the button on Masthead of PrepBytes</h3>
+    <input type="button" value="Enroll Now" class="button1">
+    <h3>Q.2 Write a text and add any google font</h3>
+    <p class="first">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ratione nulla quos quasi officiis
+        labore officia
+        ducimus, libero blanditiis recusandae! Saepe, doloremque quod doloribus repudiandae quas dicta impedit
+        perferendis ipsam.</p>
+    <h3>Q.3 create a box and increase its width on hover , add transition on hover</h3>
+    <div class="div1">
+        <p>Hello World</p>
+    </div>
+    <br>
+    <h3>Q.4 Create a circle using border radius </h3>
+    <div class="div2"></div>
+    <h3>Q.5 Write code to show implementation of media queries</h3>
+    <h3>Write code to show any animation example</h3>
+    <div class="div3"></div><br><br><br><br><br><br>
+    <h3>Q.6 Create masterhead - add background image and put a text at the center , with button below it </h3>
+    <div class="master">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit error illum deleniti. Ad, nobis.</p>
+        <input type="button" value="Click me" class="button2">
+    </div>
+    <br>
+    <h3>Q.7 Create header -- left side will have logo and right side will have 4 button </h3>
+    <nav>
+        <div class="logo">Kuldeep</div>
+        <div class="menu">
+            <a href="">Home</a>
+            <a href="">Gallary</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </div>
+    </nav> -->
+</body>
+
+</html>
