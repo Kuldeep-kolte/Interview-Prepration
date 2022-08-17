@@ -47,6 +47,78 @@
         <!-- <div class="grid-item ">8</div> -->
         <div class="grid-item grid-item8">Footer</div>
     </div>
+    <h3>Q.5 What are CSS combinators</h3>
+    <ul>
+        <li>A combinator is something that explains the relationship between the selectors.
+        <li>A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a
+            combinator.
+            There are four different combinators in CSS:</li>
+        </li>
+        <ul>
+            <li>descendant selector (space)</li>
+            The descendant selector matches all elements that are descendants of a specified element.The following
+            example selects all < p> elements inside
+                < div> elements:
+                    <pre>
+                div p {
+                    background-color: yellow;
+                    }
+            </pre>
+                    <li>child selector (>)</li>
+                    The child selector selects all elements that are the children of a specified element.
+                    <pre>
+                div > p {
+                    background-color: yellow;
+                    }
+                    </pre>
+                    <li>adjacent sibling selector (+)</li>
+                    The adjacent sibling selector is used to select an element that is directly after another specific
+                    element.
+                    <pre>
+                div + p {
+                    background-color: yellow;
+                    }
+                        </pre>
+                    <li>general sibling selector (~)</li>
+                    The general sibling selector selects all elements that are next siblings of a specified element.
+                    <pre>
+                div ~ p {
+                        background-color: yellow;
+                        }
+                    </pre>
+        </ul>
+    </ul>
+    <h3>Q.6 What are pseudo selectors in CSS</h3>
+    <ul>
+        <li>CSS Pseudo-classes</li>
+        <ul><li>A pseudo-class is used to define a special state of an element.
+            For example, it can be used to: <br>
+            Style an element when a user mouses over it <br>
+            Style visited and unvisited links differently <br>
+            Style an element when it gets focus</li></ul>
+    </ul>
+    
+    
+    <pre>
+                    Syntax
+                    selector:pseudo-class {
+                    property: value;
+                    }
+                    </pre>
+    <pre>
+                    Example:
+                        p:first-child {
+                            color: blue;
+                            }
+                        div1:hover {
+                            color: yellow;
+                            }
+    </pre>
+
+
+
+
+
 </body>
 
 </html>
