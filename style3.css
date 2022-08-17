@@ -1,0 +1,75 @@
+.master {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.div1 {
+    width: 200px;
+    height: 200px;
+    background-color: darkgrey;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 0;
+}
+
+.div2 {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    transition: all 2s linear;
+}
+
+.div2:hover {
+    width: 300px;
+    height: 300px;
+}
+
+.div3 {
+    height: 100px;
+    width: 100px;
+    background-color: lightskyblue;
+    transition: all 2s linear;
+}
+
+.div3:hover {
+    transform: rotate(360deg);
+
+}
+
+.div4 {
+    display: grid;
+    align-items: center;
+    gap: 5px 5px;
+    grid-template-columns: auto auto auto;
+
+}
+
+.grid-item {
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: chartreuse;
+}
+
+.grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+
+.grid-item8 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
